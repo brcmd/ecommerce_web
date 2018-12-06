@@ -1,0 +1,393 @@
+body {
+  background-color: #FDFFFC;
+  color: #011627;
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  background-image: url("img/bookcase.jpg");
+  background-size: 100% auto;
+  height: 300px;
+  position: relative;
+}
+
+#logo {
+  clear: none;
+  float: left;
+  margin: -12px 0 0 12px;
+}
+
+h1 a {
+  color: #FDFFFC;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-left: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav01 {
+  background-color: #2EC4B6;
+  color: #FDFFFC;
+  height: 55px;
+    opacity: 0.95;
+  width: 100%;
+}
+
+#nav-info {
+  clear: none;
+  float: right;
+  font-size: 0.8em;
+  margin-right: 23px;
+  margin-top: 7px;
+}
+
+#nav-info a {
+  color: #FDFFFC;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#nav-info a:hover {
+  color: #021727;
+  text-decoration: underline;
+}
+
+ul.top-container {
+  list-style-type: none;
+}
+
+li.nav-top {
+  display: inline;
+  padding: 8px;
+}
+
+#nav02 {
+  background-color: #FC9F1C;
+  color: #FDFFFC;
+  height: 70px;
+  opacity: 0.95;
+  width: 100%;
+}
+
+#search {
+  clear: none;
+  float: left;
+  margin: 23px 0 0 -250px;
+  width: 60%;
+}
+
+#search-box {
+  background: white url(img/search-icon.svg) left no-repeat;
+  background-color: #FDFFFC;
+  border: none;
+  border-radius: 21px;
+  height: 25px;
+  margin: auto;
+  padding-left: 34px;
+  width: 100%;
+}
+
+.accounti {
+  grid-area: accounti;
+}
+
+.account {
+  grid-area: account;
+}
+
+.buyi {
+  grid-area: buyi;
+}
+
+.buy {
+  grid-area: buy;
+}
+
+.grid-account {
+  display: grid;
+  float: right;
+  grid-gap: 5px;
+  grid-template-areas: 'accounti buyi' 'account buy';
+  padding: 13px 13px 0 0;
+  width: 200px;
+}
+
+.grid-account>div {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.grid-account a {
+  color: #FDFFFC;
+}
+
+.grid-account a:hover {
+  color: #021727;
+  text-decoration: underline;
+}
+
+#nav03 {
+  background-color: #E71D36;
+  color: #FDFFFC;
+  height: 21px;
+  margin-top: -16px;
+  opacity: 0.95;
+  width: 100%;
+}
+
+ul.categories {
+  list-style-type: none;
+}
+
+li.gen {
+  display: inline;
+  font-size: 0.8em;
+  padding: 0 34px 0 0;
+}
+
+li.gen a {
+  color: #FDFFFC;
+}
+
+li.gen a:hover {
+  color: #021727;
+  text-decoration: underline;
+}
+
+#quote {
+  color: #FDFFFC;
+  font-size: 2em;
+  margin: 55px 0 0 41px;
+}
+
+#catalogo {
+  margin-left: 10%;
+}
+
+.titulo-libro a {
+  color: #021727;
+  text-decoration: underline;
+}
+
+.titulo-libro a:hover {
+  color: #A21122;
+  text-decoration: underline;
+}
+
+.section-novedades {
+  grid-area: section-novedades;
+}
+
+.novedad01 {
+  grid-area: novedad01;
+}
+
+.novedad01-texto {
+  grid-area: novedad01-texto;
+}
+
+.novedad02 {
+  grid-area: novedad02;
+}
+
+.novedad02-texto {
+  grid-area: novedad02-texto;
+}
+
+.novedad03 {
+  grid-area: novedad03;
+}
+
+.novedad03-texto {
+  grid-area: novedad03-texto;
+}
+
+#grid-novedades {
+  display: grid;
+  grid-template-areas: 'section-novedades section-novedades section-novedades' 'novedad01 novedad02 novedad03' 'novedad01-texto novedad02-texto novedad03-texto';
+  width: 100%;
+}
+
+.section-favoritos {
+  grid-area: section-favoritos;
+}
+
+.novedad01 {
+  grid-area: favorito01;
+}
+
+.novedad01-texto {
+  grid-area: favorito01-texto;
+}
+
+.novedad02 {
+  grid-area: favorito02;
+}
+
+.novedad02-texto {
+  grid-area: favorito02-texto;
+}
+
+.novedad03 {
+  grid-area: favorito03;
+}
+
+.novedad03-texto {
+  grid-area: favorito03-texto;
+}
+
+#grid-favoritos {
+  display: grid;
+  grid-template-areas: 'section-favoritos section-favoritos section-favoritos' 'favorito01 favorito02 favorito03' 'favorito01-texto favorito02-texto favorito03-texto';
+  width: 100%;
+}
+
+.section-vuestros {
+  grid-area: section-vuestros;
+}
+
+.vuestro01 {
+  grid-area: favorito01;
+}
+
+.vuestro01-texto {
+  grid-area: favorito01-texto;
+}
+
+.vuestro02 {
+  grid-area: favorito02;
+}
+
+.vuestro02-texto {
+  grid-area: favorito02-texto;
+}
+
+.vuestro03 {
+  grid-area: favorito03;
+}
+
+.vuestro03-texto {
+  grid-area: favorito03-texto;
+}
+
+#grid-vuestros {
+  display: grid;
+  grid-template-areas: 'section-vuestros section-vuestros section-vuestros' 'vuestro01 vuestro02 vuestro03' 'vuestro01-texto vuestro02-texto vuestro03-texto';
+  width: 100%;
+}
+
+#item {
+  margin: auto;
+  padding: 55px;
+  width: 60%;
+}
+
+.portada-libro-item {
+  grid-area: portada-libro-item;
+}
+
+.datos-libro {
+  grid-area: datos-libro;
+}
+
+.comprar {
+  grid-area: comprar;
+}
+
+.sinopsis {
+  grid-area: sinopsis;
+}
+
+#grid-item {
+  display: grid;
+  grid-template-areas: 'portada-libro-item datos-libro comprar' 'sinopsis sinopsis sinopsis';
+  width: 100%;
+}
+
+.sinopsis {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+.section-novedades {
+  color: #011627;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 34px 0 21px -21px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.section-favoritos {
+  color: #011627;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 34px 0 21px -21px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.section-vuestros {
+  color: #011627;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 34px 0 21px -21px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.portada-libro {
+  height: 400px;
+}
+
+.titulo-libro {
+  color: #011627;
+  font-size: 1.2em;
+  text-align: left;
+  width: 250px;
+}
+
+.autor {
+  color: #011627;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.precio {
+  color: #011627;
+  margin-top: -15px;
+  text-align: left;
+}
+
+.datos-libro {
+  color: #011627;
+  margin-top: -15px;
+  text-align: left;
+}
+
+.footer {
+  margin: 55px auto 21px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.footer a {
+  color: #021727;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #A21122;
+  text-decoration: underline;
+}
+
+.fa-twitter {
+  color: #1dcaff;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
